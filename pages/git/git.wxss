@@ -1,0 +1,20 @@
+.total {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid gray;
+}
+.git-card {
+    height: auto;
+    border: 1px solid gray;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.git-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+.git-description {
+    font-size: 12px;
+}

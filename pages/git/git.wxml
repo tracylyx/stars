@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view>
+  <view class="total">
+    <text class="git-name">总数 </text>
+    <text class="git-description">{{total}}</text>
+  </view>
+
+  <view class="git" wx:for="{{items}}">
+    <view class="git-card">
+      <view>
+        <text class="git-name">仓库名 </text>
+        <text class="git-description">{{item.name}}</text>
+      </view>
+      
+      <view>
+        <text class="git-name">描述 </text>
+        <text class="git-description">{{item.description}}</text>
+      </view>
+
+      <view>
+        <text class="git-name">克隆地址地址 </text>
+        <text class="git-description">{{item.clone_url}}</text>
+      </view>
+      
+    </view>	
+  </view>
+</view>
