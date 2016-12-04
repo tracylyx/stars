@@ -88,37 +88,6 @@ util.getData =  function (options) {
         fail: fail,
         complate: complate
     });
-
-    // wx.request({
-    //   url: 'https://api.github.com/search/repositories?q=javascript&sort=stars',
-    //   // data: {},
-    //   method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
-    //   // header: {}, // 设置请求的 header
-    //   success: function(res){
-    //     // success
-    //     // 处理数据
-    //     if (res && res.data && res.data.items) {
-            
-    //         util.showToast({
-    //             title: '成功',
-    //             icon: 'success'
-    //         });
-
-    //         self.setData({
-    //             total: res.data.total_count,
-    //             items: res.data.items
-    //         });
-    //     } else {
-    //         // do something
-    //     }
-    //   },
-    //   fail: function() {
-    //     // fail
-    //   },
-    //   complete: function() {
-    //     // complete
-    //   }
-    // });
 }
 
 // 导出模块的，建议通过 module.exports 这种方式导出模块
